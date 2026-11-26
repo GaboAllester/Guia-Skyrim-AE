@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Guía Skyrim AE — Compañero Offline</title>
+  <style>
+    :root {
+      --bg: #0d0f14;
+      --card: #161a24;
+      --text: #eef1f6;
+      --muted: #a2acc0;
+      --accent: #d4af37;
+      --accent-dark: #9e7e1b;
+      --border: #262d3d;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.55;
+      padding: 20px 16px 48px;
+    }
+
+    .container {
+      max-width: 680px;
+      margin: 0 auto;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 28px 16px 32px;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 28px;
+    }
+
+    .badge {
+      display: inline-block;
+      font-size: 0.78rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--accent);
+      border: 1px solid var(--accent-dark);
+      padding: 4px 10px;
+      border-radius: 999px;
+      margin-bottom: 14px;
+    }
+
+    h1 {
+      font-size: 1.85rem;
+      line-height: 1.2;
+      margin-bottom: 12px;
+      font-weight: 700;
+    }
+
+    .subtitle {
+      color: var(--muted);
+      font-size: 1rem;
+      max-width: 520px;
+      margin: 0 auto 22px;
+    }
+
+    .btn-download {
+      display: inline-block;
+      background: var(--accent);
+      color: #0d0f14;
+      font-weight: 700;
+      text-decoration: none;
+      padding: 13px 24px;
+      border-radius: 10px;
+      font-size: 0.98rem;
+    }
+
+    .meta-note {
+      margin-top: 10px;
+      font-size: 0.82rem;
+      color: var(--muted);
+    }
+
+    .features {
+      display: grid;
+      gap: 20px;
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 16px;
+    }
+
+    .card h2 {
+      font-size: 1.15rem;
+      margin-bottom: 6px;
+      color: var(--accent);
+    }
+
+    .card p {
+      color: var(--muted);
+      font-size: 0.94rem;
+      margin-bottom: 14px;
+    }
+
+    .card img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      border: 1px solid var(--border);
+      display: block;
+    }
+
+    footer {
+      margin-top: 32px;
+      text-align: center;
+      color: var(--muted);
+      font-size: 0.85rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header class="hero">
+      <span class="badge">Skyrim Anniversary Edition • 100% Offline</span>
+      <h1>Tu registro de aventura sin depender de internet</h1>
+      <p class="subtitle">
+        Lleva el control de tus recetas, encantamientos, ubicaciones y misiones en una aplicación ligera y directa.
+      </p>
+      <a class="btn-download" href="#" id="descargar-apk">Descargar APK (Próximamente v1.0.5)</a>
+      <div class="meta-note">Android • Ligera (~5.6 MB) • Sin conexión</div>
+    </header>
+
+    <main class="features">
+      <section class="card">
+        <h2>Alquimia</h2>
+        <p>Consulta y organiza tus combinaciones e ingredientes sin perder el hilo de tus partidas.</p>
+        <img src="alquimia.jpg" alt="Captura de pantalla de la sección de Alquimia" />
+      </section>
+
+      <section class="card">
+        <h2>Encantamientos</h2>
+        <p>Revisa los efectos que ya dominas y mantén claro qué te falta por aprender.</p>
+        <img src="encantamiento.jpg" alt="Captura de pantalla de la sección de Encantamiento" />
+      </section>
+
+      <section class="card">
+        <h2>Mapa y Ubicaciones</h2>
+        <p>Explora por zonas y revisa lugares clave para no dejar rincones sin marcar.</p>
+        <img src="mapa.jpg" alt="Captura de pantalla del Mapa y ubicaciones" />
+      </section>
+
+      <section class="card">
+        <h2>Misiones</h2>
+        <p>Sigue el avance de tus misiones clasificadas por zona de forma clara y ordenada.</p>
+        <img src="misiones.jpg" alt="Captura de pantalla de la sección de Misiones" />
+      </section>
+    </main>
+
+    <footer>
+      Proyecto independiente para jugadores de Skyrim AE.
+    </footer>
+  </div>
+</body>
+</html>
